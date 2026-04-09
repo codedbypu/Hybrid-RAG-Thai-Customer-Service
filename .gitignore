@@ -1,0 +1,28 @@
+
+# Data & Competition Files
+data/
+questions.csv
+
+# Outputs, Logs & Checkpoints
+output/
+checkpoint_results.jsonl
+analysis_log_*.csv
+submission_*.csv
+*.csv
+
+# Vector DB & Caching
+faiss_index/
+*.faiss
+*.pkl
+
+# Environments
+.env
+
+# Python & Jupyter Notebook
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
